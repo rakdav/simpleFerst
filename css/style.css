@@ -102,3 +102,47 @@ nav li{
      margin: 0;
      text-align: right;
  }
+ figure{
+     display: inline-block;
+     margin: 0;
+     font-family:'Oswald',sans-serif;
+     font-weight: 300;
+ }
+ figure img{
+     border: 1px solid #fff;
+     outline: 1px solid #c9c9c9;
+ }
+
+ figure figcaption span{
+     display: block;
+     font-size: 14px;
+     color: #29c5e6;
+ }
+ section>figure+figure{
+     margin-left: 28px;
+ }
+
+ section > h2{
+     background: #29c5e6;
+     font: 30px 'Oswald',sans-serif;
+     font-weight: 300;
+     color: white;
+     padding: 0 10px;
+     margin: 30px 0 0 0;
+ }
+
+ figure figcaption{
+     font-size: 16px;
+     font-weight: 300;
+     margin-top: 5px;
+ }
+ figure div{
+     font-size: 14px;
+     color: #29c5e6;
+ }
+ .team-row figure{
+     margin-top: 20px;
+ }
+ .team-row figure+figure{
+     margin-left: 43px;
+ }
