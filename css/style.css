@@ -190,6 +190,7 @@ nav li{
  }
  #twitter{
      float: left;
+     margin-left: 30px;
      width: 300px;
  }
  #twitter p{
@@ -261,4 +262,11 @@ nav li{
 }
 .rss{
     background-position: -64px 0;
+}
+#footer-logo{
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 10px;
+    text-align: right;
 }
