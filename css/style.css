@@ -1,0 +1,26 @@
+#wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+header{
+    padding: 20px 0;
+}
+form[name="search"]{
+    float: right;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style-position: inside;
+    font: 14px 'Oswald',sans-serif;
+    padding: 10px;
+}
+.top-menu li{
+    display: inline-block;
+    padding: 10px 30px;
+}
